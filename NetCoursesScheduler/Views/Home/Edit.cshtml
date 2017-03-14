@@ -33,7 +33,7 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "datetimepicker form-control" } })
+                    @Html.EditorFor(model => model.Date, new { htmlAttributes = new {@class = "datetimepicker form-control", @data_date_format = "DD/MM/YYYY HH:mm:ss" } })
                     @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
                 </div>
             </div>
@@ -67,7 +67,7 @@
 
     <script type="text/javascript">
         $('.datetimepicker').datetimepicker({
-            format: 'YYYY/MM/DD hh:mm'
+            format: 'DD/MM/YYYY HH:mm:ss',
         }); //Initialise any date pickers
     </script>
 

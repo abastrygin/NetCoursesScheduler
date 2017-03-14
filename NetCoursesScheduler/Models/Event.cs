@@ -11,11 +11,15 @@ namespace NetCoursesScheduler.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Event
     {
         public int Id { get; set; }
         public string Title { get; set; }
+
+        //[DataType(DataType.DateTime)]
+        //[DisplayFormat(DataFormatString = "{0:YYYY/MM/DD hh:mm}", ApplyFormatInEditMode = true)]
         public System.DateTime Date { get; set; }
         public string Description { get; set; }
     }
