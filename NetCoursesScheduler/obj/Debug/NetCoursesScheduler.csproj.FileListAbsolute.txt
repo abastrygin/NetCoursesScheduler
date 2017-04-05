@@ -161,3 +161,4 @@ C:\Projects\NetCoursesScheduler\NetCoursesScheduler\bin\Microsoft.Owin.Security.
 C:\Projects\NetCoursesScheduler\NetCoursesScheduler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Projects\NetCoursesScheduler\NetCoursesScheduler\obj\Debug\NetCoursesScheduler.dll
 C:\Projects\NetCoursesScheduler\NetCoursesScheduler\obj\Debug\NetCoursesScheduler.pdb
+C:\Projects\NetCoursesScheduler\NetCoursesScheduler\obj\Debug\NetCoursesScheduler.csprojResolveAssemblyReference.cache
